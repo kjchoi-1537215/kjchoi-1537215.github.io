@@ -1,0 +1,12 @@
+body {
+	background-image: url('pink_rice.png');
+}
+
+legend {
+	font-size: 16pt;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}

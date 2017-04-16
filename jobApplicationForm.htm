@@ -38,6 +38,10 @@
 			<input type="text" name="preferred">
 		</div>
 		<div class="field">
+			<label>Phone Number:</label> 
+			<input type="text" name="phone">
+		</div>
+		<div class="field">
 			<label>Street Address:</label> 
 			<input type="text" name="street">
 		</div>
@@ -106,10 +110,7 @@
 			<label>ZIP:</label> 
 			<input type="text" name="zip">
 		</div>
-		<div class="field">
-			<label>Phone Number:</label> 
-			<input type="text" name="phone">
-		</div>
+
 	</fieldset>
 
 	<fieldset>
@@ -163,6 +164,19 @@
 				</tr>
 			</table>
 		</div>
+		<br>
+		<div class="field">
+			<label>Please indicate your preferred method of contact.</label>
+			<ul>
+				<li><input type="radio" name="contact" value="email">Email</li>
+				<li><input type="radio" name="contact" value="phone">Phone</li>
+				<li><input type="radio" name="contact" value="other">Other</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>If other, specify below:</label> 
+			<input type="text" name="other_text">
+		</div>
 	</fieldset>
 
 	<fieldset>
@@ -178,6 +192,17 @@
 		<div class="field">
 			<label>Please list any relevant work experience:</label><br>
 			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Additonal Questions</legend>
+		<div>
+			<img src="ducks.jpg" height="270" width="400">
+		</div>
+		<div class="field">
+			<label>Describe this image to a blind person.</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
 		</div>
 	</fieldset>
 
